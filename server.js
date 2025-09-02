@@ -4,7 +4,7 @@ const app = express();
 const PORT = 3000;
 
 app.get("/", (req, res) => {
-  res.send("Hello from CI/CD with GitHub Actions updated 🚀");
+  res.send("Hello from CI/CD with GitHub Actions updated today is tuesday 🚀");
 });
 
 app.listen(PORT, () => {
